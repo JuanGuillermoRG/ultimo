@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body class="colorbody">
+    <div class="container-fluid " style="background-color: #001524;">
+    <nav class="navbar navbar-expand-sm navbar-dark ">
+        <div class="container">
+          <a class="navbar-brand" href="./index.html">Te lo vendo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html#imagenes">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>         
+             
+            </ul>
+          </div>
+        </div>        
+      </nav>
+    </div>
+     <div class="container">
+        <h1>Tabla Estadistica de Mercados Financieros</h1>
+     </div>
+    <div class="container mt-2">
+        <div class="row">
+            <div class="col">
+                
+               
+                <table id="miTabla" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>NASDAQ</th>
+                            <th>Dow Jones</th>
+                            <th>S&P 500</th>
+                            <th>FTSE 100</th>
+                            <th>Nikkei 225</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>4554.78</td>
+                            <td>34253.65</td>
+                            <td>4123.89</td>
+                            <td>7210.45</td>
+                            <td>15523.61</td>
+                        </tr>
+                        <tr>
+                            <td>5421.96</td>
+                            <td>34129.98</td>
+                            <td>4156.32</td>
+                            <td>7325.89</td>
+                            <td>15678.54</td>
+                        </tr>
+                        <tr>
+                            <td>4965.23</td>
+                            <td>34012.76</td>
+                            <td>4132.45</td>
+                            <td>7178.24</td>
+                            <td>15432.67</td>
+                        </tr>
+                        <tr>
+                            <td>4802.75</td>
+                            <td>34321.55</td>
+                            <td>4143.67</td>
+                            <td>7254.32</td>
+                            <td>15589.78</td>
+                        </tr>
+                        <tr>
+                            <td>5120.34</td>
+                            <td>33988.76</td>
+                            <td>4167.98</td>
+                            <td>7301.89</td>
+                            <td>15632.45</td>
+                        </tr>
+                        <tr>
+                            <td>4978.23</td>
+                            <td>34455.32</td>
+                            <td>4112.76</td>
+                            <td>7221.98</td>
+                            <td>15578.32</td>
+                        </tr>
+                        <tr>
+                            <td>4890.45</td>
+                            <td>34210.76</td>
+                            <td>4102.54</td>
+                            <td>7190.67</td>
+                            <td>15543.21</td>
+                        </tr>
+                        <tr>
+                            <td>5032.67</td>
+                            <td>34098.23</td>
+                            <td>4098.78</td>
+                            <td>7245.98</td>
+                            <td>15600.43</td>
+                        </tr>
+                        <tr>
+                            <td>4765.89</td>
+                            <td>34123.12</td>
+                            <td>4123.12</td>
+                            <td>7189.45</td>
+                            <td>15521.76</td>
+                        </tr>
+                        <tr>
+                            <td>4876.32</td>
+                            <td>34009.87</td>
+                            <td>4155.98</td>
+                            <td>7267.32</td>
+                            <td>15567.32</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                            </div>
+                            </div>
+                        </div>
+                            </div>
+                            
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        
+        $('#miTabla').DataTable();
+    });
+</script>
+<footer class="bg-light fixed-bottom text-center">
+    <div class="pie container-fluid">
+      <p><strong> EQUIPO N° 3 | @THE JAVA_FIVE | ©Copyright 2023</strong></p>
+    </div>
+</footer> 
+
+</body>
+</html>
+

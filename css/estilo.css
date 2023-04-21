@@ -1,0 +1,32 @@
+.colorbody{
+  margin: 0;
+  padding: 0; 
+  background-color: #757471;  
+}
+
+h1{
+    color: #22223b;
+    text-align: center;
+    font-family: cursive;
+}
+
+a{
+    text-decoration:none;
+}
+
+.imagenes{
+  background-color: transparent;  
+  border-radius: 20%;
+  margin: 10px;
+}
+
+.pie{
+  background-color: black;
+  color: white;
+}
+.navbar{
+  background-color: #001524;
+}
+#miTabla{
+  background-color: rgb(243, 252, 249);
+}
